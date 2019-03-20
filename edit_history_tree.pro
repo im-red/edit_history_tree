@@ -27,12 +27,14 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    textedit.cpp
+    textedit.cpp \
+    historyitem.cpp
 
 HEADERS += \
         mainwindow.h \
     textedit.h \
-    util.h
+    util.h \
+    historyitem.h
 
 FORMS += \
         mainwindow.ui
